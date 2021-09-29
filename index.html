@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore and Travel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="wrapper nav">
+                <img src="img/logo.svg" alt="logo" class="logo">
+                <div class="navLinks">
+                    <ul>
+                        <li class="active">Home</li>
+                        <li>Destinations</li>
+                        <li>About</li>
+                        <li>Partner</li>
+                    </ul>
+                    <div class="login">Login</div>
+                    <div class="register">Register</div>
+                </div>
+            </div>
+        </nav>
+        <div class="wrapper header">
+            <div class="headerInfo">
+                <img src="img/header-background.svg" alt="headerBackground" class="headerBackground">
+                <h1>Explore and Travel</h1>
+                <p>Holiday finder</p>
+                <form>
+                    <div class="selectBox">
+                        <select class="holidaySelect" name="location" id="location">
+                            <option style="display:none;" value="Location">Location</option>
+                            <option value="Netherlands">Netherlands</option>
+                            <option value="Japan">Japan</option>
+                        </select>
+                    </div>
+                    <div class="selectBox">
+                        <select class="holidaySelect"name="actvity" id="actvity">
+                            <option style="display:none;" value="Activity">Activity</option>
+                            <option value="Hiking">Hiking</option>
+                            <option value="Cycling">Cycling</option>
+                        </select>
+                    </div>
+                    <div class="selectBox">
+                        <select class="holidaySelect" name="grade" id="grade">
+                            <option style="display:none;" value="Grade">Grade</option>
+                            <option value="High">High</option>
+                            <option value="Low">Low</option>
+                        </select>
+                    </div>
+                    <div class="selectBox">
+                        <select class="holidaySelect" name="actvity" id="actvity">
+                            <option style="display:none;" value="Date">Date</option>
+                            <option value="Today">Today</option>
+                            <option value="Tomorrow">Tomorrow</option>
+                        </select>
+                    </div>
+                    <button class="orangeButton exploreButton">Explore</button>
+                </form>
+            </div>
+            <img src="img/header-illustration.png" alt="headerIllustration" class="headerIllustration">
+        </div>
+    </header>
+    <main>
+        <section class="wrapper learnMore">
+            <img src="img/learnmore-illustration.png" alt="illustration" class="learnMoreIllustration">
+            <div class="learnMoreInfo">
+                <img src="img/learnmore-background.svg" alt="illustration" class="learMoreBackground">
+                <h2>A new way to explore the world</h2>
+                <p>For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+                <div class="orangeButton learnMoreButton">Learn more</div>
+            </div>
+        </section>
+        <section class="wrapper featured">
+            <img src="img/featured-background.svg" alt="background" class="featuredBackground">
+            <div class="featuredHeadline">
+                <h2>Featured destinations</h2>
+                <div class="viewAll">View all</div>
+            </div>
+            <div class="featuredCards">
+                <div class="featuredCard f1">
+                    <div class="featuredCardInfo">
+                        <p class="destinationCity">Raja Ampat</p>
+                        <p class="destinationCountry">Indonesia</p>
+                    </div>
+                </div>
+                <div class="featuredCard f2">
+                    <div class="featuredCardInfo">
+                        <p class="destinationCity">Fanjingshan</p>
+                        <p class="destinationCountry">China</p>
+                    </div>
+                </div>
+                <div class="featuredCard f3">
+                    <div class="featuredCardInfo">
+                        <p class="destinationCity">Vevey</p>
+                        <p class="destinationCountry">Switzerland</p>
+                    </div>
+                </div>
+                <div class="featuredCard f4">
+                    <div class="featuredCardInfo">
+                        <p class="destinationCity">Skadar</p>
+                        <p class="destinationCountry">Montenegro</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wrapper app">
+            <img src="img/app-background.svg" alt="illustration" class="appBackground">
+            <div class="appInfo">
+                <h2>Guides by Thousand Sunny</h2>
+                <p>Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
+                <div class="Button appButton">Download</div>
+            </div>
+            <img src="img/app-illustration.png" alt="illustration" class="appIllustration">
+        </section>
+        <section class="wrapper testimonials">
+            <div class="testimonialsInfo">
+                <h2>Testimonials</h2>
+                <div class="stars">
+                    <img src="img/star.svg" alt="star" class="star">
+                    <img src="img/star.svg" alt="star" class="star">
+                    <img src="img/star.svg" alt="star" class="star">
+                    <img src="img/star.svg" alt="star" class="star">
+                    <img src="img/star.svg" alt="star" class="star">
+                </div>
+                <p class="testimonialsComment">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</p>
+                <p class="testimonialsName">Edward Newgate</p>
+                <p class="testimonialsRole">Founder Circle</p>
+            </div>
+            <div class="testimonialsImage">
+                <img src="img/testimonials-background.svg" alt="illustration" class="testimonialsBackground">
+                <div class="testimonialsImageNav">
+                    <img src="img/next.svg" alt="prev" class="prev">
+                    <img src="img/next.svg" alt="next" class="next">
+                </div>
+            </div>
+        </section>
+        <section class="wrapper trending">
+            <img src="img/trending-background.svg" alt="illustration" class="trendingBackground">
+            <div class="trendingHeadline">
+                <h2>Trending stories</h2>
+                <div class="viewAll">View all</div>
+            </div>
+            <div class="trendingCards">
+                <div class="trendingCard">
+                    <div class="trendingImage t1"></div>
+                    <h3>The many benefits of taking a healing holiday</h3>
+                    <p class="trendingP">‘Helaing holidays’ are on the rise tohelp maximise your health and happines...</p>
+                    <div class="trendingButton">Read more</div>
+                </div>
+                <div class="trendingCard">
+                    <div class="trendingImage t2"></div>
+                    <h3>The best Kyoto restaurant to try Japanese food</h3>
+                    <p class="trendingP">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants to visit...</p>
+                    <div class="trendingButton">Read more</div>
+                </div>
+                <div class="trendingCard">
+                    <div class="trendingImage t3"></div>
+                    <h3>Skip Chichen Itza and head to this remote Yucatan</h3>
+                    <p class="trendingP">It’s remote and challenging to get,
+                        but braving the jungle and exploring these ruins without the...</p>
+                    <div class="trendingButton">Read more</div>
+                </div>
+                <div class="trendingCard">
+                    <div class="trendingImage t4"></div>
+                    <h3>Surf's up at these beginner spots around thw world</h3>
+                    <p class="trendingP">If learning to surf has in on your to-do list for a while, the good news is: it’s never too late...</p>
+                    <div class="trendingButton">Read more</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrapper footer">
+            <div class="footerTop">
+                <div class="companyInfo">
+                    <img src="img/logo.svg" alt="logo">
+                    <p class="footerP">Plan and book your perfect trip with expert advice, travel tips destination information from us</p>
+                    <div class="copyright">&copy; 2020 Thousand Sunny. All rights reserved</div>
+                </div>
+                <div class="footerNav">
+                    <h4>Destinations</h4>
+                    <ul>
+                        <li>Africa</li>
+                        <li>Antarctica</li>
+                        <li>Asia</li>
+                        <li>Europe</li>
+                        <li>America</li>
+                    </ul>
+                </div>
+                <div class="footerNav">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li>Destination Guides</li>
+                        <li>Pictorial & Gifts</li>
+                        <li>Special Offers</li>
+                        <li>Delivery Times</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+                <div class="footerNav">
+                    <h4>Interests</h4>
+                    <ul>
+                        <li>Adventure Travel</li>
+                        <li>Art and Culture</li>
+                        <li>Wildlife and Nature</li>
+                        <li>Family Holidays</li>
+                        <li>Food and Drink</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerBottom">
+                <img src="img/twitter.svg" alt="twitter">
+                <img src="img/facebook.svg" alt="facebook">
+                <img src="img/instagram.svg" alt="instagram">
+                <img src="img/linkedin.svg" alt="linkedin">
+                <img src="img/youtube.svg" alt="youtube">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
